@@ -20,7 +20,7 @@ The project is structured as follows:
 - `images/` - Folder containing images used in the project.
 
 ## Deployment
-The web page is deployed on GitHub Pages. You can access it by following this link: [Tim Berners-Lee Tribute Page](https://buraktc.github.io/tim-berners-lee)
+The web page is deployed on GitHub Pages. You can access it by following this link: [My clone of : Tim Berners-Lee Tribute Page](https://buraktc.github.io/tim-berners-lee)
 
 
 ![Project GIF](https://media.giphy.com/media/6tHy8UAbv3zgs/giphy.gif)
