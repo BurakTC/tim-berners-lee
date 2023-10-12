@@ -179,6 +179,15 @@ figure{
   display: none;
 }
 
+#actionmob{
+  display: none;
+  color: #1c469d;
+  background: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  border: 1.5px solid #e0e0e0;
+
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -206,5 +215,9 @@ figure{
     padding:10px 5px 10px 5px;
     display: flex;
     justify-content: space-between;
+  }
+  #actionmob{
+    display: block;
+    float:right;
   }
 }
