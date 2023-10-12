@@ -182,4 +182,11 @@ figure{
   #content{
     flex-direction: column-reverse;
   }
+  main{
+    border-left: none;
+    margin: 0;
+  }
+  #biography{
+    border: none;
+  }
 }
