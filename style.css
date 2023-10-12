@@ -175,6 +175,12 @@ figure{
   margin: 15px;
 }
 
+#navmob{
+  display: none;
+}
+
+
+
 @media only screen and (max-width: 767px) {
   #actions{
     display: none;
@@ -188,5 +194,17 @@ figure{
   }
   #biography{
     border: none;
+  }
+  #navdesk{
+    display: none;
+  }
+  #navmob{
+    display: block;
+    background-color: #03182e;
+    height: min-content;
+    max-width: 100%;
+    padding:10px 5px 10px 5px;
+    display: flex;
+    justify-content: space-between;
   }
 }
