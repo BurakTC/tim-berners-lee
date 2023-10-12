@@ -10,14 +10,12 @@ This project is a tribute page dedicated to Tim Berners-Lee, the inventor of HTM
 ## Table of Contents
 
 - [Description](#description)
-- [Project Screenshots](#project-screenshots)
-- [Project Structure](#project-structure)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+
 - [License](#license)
 
 ## Project Screenshots
-
+- [Project Screenshots](./images/Screen-desk.png)
+- [Project Screenshots](./images/Screen-mobile.png)
 <!-- Ajoutez ici une ou plusieurs captures d'écran de votre projet pour illustrer son apparence. -->
 
 ## Project Structure
@@ -30,18 +28,9 @@ The project is structured as follows:
 
 ## Deployment
 
-The web page is deployed on GitHub Pages. You can access it by following this link: [Tim Berners-Lee Tribute Page](https://your-github-username.github.io/tim-berners-lee)
+The web page is deployed on GitHub Pages. You can access it by following this link: [Tim Berners-Lee Tribute Page](https://buraktc.github.io/tim-berners-lee)
 <!-- Assurez-vous de remplacer "your-github-username" par votre nom d'utilisateur GitHub. -->
 
-## Contributing
-
-Feel free to contribute to this project by opening issues or pull requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ![Project GIF](https://media.giphy.com/media/6tHy8UAbv3zgs/giphy.gif)
 <!-- Ajoutez ici un GIF illustrant le fonctionnement ou l'apparence de votre projet. -->
