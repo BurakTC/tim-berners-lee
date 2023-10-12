@@ -209,8 +209,26 @@ figure{
   display: none;
   margin-top: 15px;
 }
+.gray{
+  color: gray;
+}
 
-
+#pub{
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  display: none;
+  margin-top: 15px;
+  justify-content: space-between;
+  position: relative;
+}
+#logovolume{
+  position: absolute;
+  right: 15px;
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -255,5 +273,8 @@ figure{
   #tablemob{
     display: block;
     text-align: center;
+  }
+  #pub{
+    display: block;
   }
 }
