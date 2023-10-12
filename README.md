@@ -1,7 +1,4 @@
-# Tim Berners-Lee Tribute Page
-
-![Project Screenshot](screenshot.png)
-<!-- Ajoutez une capture d'écran de votre projet ici -->
+# Tim Berners-Lee Tribute Page Clone
 
 ## Description
 
