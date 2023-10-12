@@ -186,11 +186,22 @@ figure{
   padding: 5px 10px 5px 10px;
   border-radius: 8px;
   border: 1.5px solid #e0e0e0;
+
   position: absolute; /* Position absolue pour #actionmob */
   top: 10px; 
   right: 0;
 
 }
+
+#sciencetag{
+  background-color: #fed7aa;
+  border:none;
+  border-radius: 5px;
+  width: fit-content;  
+  display: none;
+}
+
+
 
 
 
@@ -225,5 +236,8 @@ figure{
   }
   #biotitle{
     position: relative; 
+  }
+  #sciencetag{
+    display: block;
   }
 }
