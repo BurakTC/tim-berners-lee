@@ -3,7 +3,10 @@ html,body{
   width: 100%;
   padding: 0;
   margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
+
 nav{
   background-color: #03182e;
   height: min-content;
@@ -11,6 +14,7 @@ nav{
   color: white;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); 
 }
 
 #logo{
@@ -18,7 +22,8 @@ nav{
   padding-right: 10px;
   padding-left: 10px;
 }
-a{
+
+nav a{
   text-decoration: none;
   color: white;
   font-size: small;
@@ -47,5 +52,134 @@ button,a :hover{
 }
 
 main{
+  border-left: 1px solid rgb(192, 191, 191);
+  height: min-content;
+  max-width: 100%;
+  margin-left: 1em;
+  padding-top: 0.5em;
+}
 
+#path{
+  margin: 1em;
+}
+
+#biography{
+  height: auto;
+  max-width: 600px;
+  height: 100%;
+  border: 1.5px solid #e0e0e0;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+
+#biotext{
+  line-height: 20px;
+}
+
+#content{
+  gap: 10px;
+}
+
+aside{
+  border: 1.5px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+}
+
+#actions button{
+  color: #1c469d;
+  background: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 8px;
+  border: 1.5px solid #e0e0e0;
+  width: auto;
+  display: flex;
+}
+#actions{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size:15px ;
+  height: min-content;
+  padding: 15px;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+#alter{
+  color: gray;
+  font-style: italic;
+  font-size: small;
+}
+#by{
+  font-size: 12px;
+}
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+}
+
+#top img{
+ width: 200px;
+  max-height: 150px;
+  object-fit: cover;
+}
+#top hr{
+  color: #e0e0e0;
+  width: 85%;
+}
+#top a{
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: rgb(1, 1, 185);
+}
+#medialink{
+  text-align: center;
+}
+
+.bold{
+  font-weight: bolder
+}
+#relatedbtn {
+  align-self: center;
+  border: 1px solid #e0e0e0;
+  padding: 5px 10px 5px 10px;
+  border-radius: 7px;
+  margin-top: 15px;
+  font-size: small;
+}
+#content{
+  display: flex;
+}
+h1{
+  font-size: xx-large;
+}
+h4{
+  font-weight: 200;
+}
+
+figure{
+  margin: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  #actions{
+    display: none;
+  }
+  #content{
+    flex-direction: column-reverse;
+  }
 }
